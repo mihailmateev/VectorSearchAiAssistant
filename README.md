@@ -1,5 +1,8 @@
 # Vector Search & AI Assistant for Build and Modernize AI Apps
 
+# NOTICE: REPO MOVED
+## This repo has moved to <https://github.com/Azure/Vector-Search-AI-Assistant>
+
 This solution is a series of samples that demonstrate how to build solutions that incorporate Azure Cosmos DB with Azure OpenAI Service to build vector search solutions with an AI assistant user interface. The solution shows hows to generate vectors on data stored in Azure Cosmos DB using Azure OpenAI Service, then shows how to implment vector search capabilities using a variety of different vector capable databases available from Azure Cosmos DB and Azure. The solution also includes key concepts such as managing conversational context and history, managing tokens consumed by Azure OpenAI Service, as well as understanding how to write prompts for large language models such as ChatGPT so they produce the desired responses.
 
 The scenario for this sample centers around a consumer retail "Intelligent Agent" that allows users to ask questions on vectorized product, customer and sales order data stored in the database. The data in this solution is the [Cosmic Works](https://github.com/azurecosmosdb/cosmicworks) sample for Azure Cosmos DB. This data is an adapted subset of the Adventure Works 2017 dataset for a retail Bike Shop that sells bicycles, biking accessories, components and clothing.
