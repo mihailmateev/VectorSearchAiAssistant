@@ -1,3 +1,5 @@
+This repository and branch has been relocated to https://github.com/Azure/Vector-Search-AI-Assistant/tree/cognitive-search-vector Please visit there for current version.
+
 # Vector Search & AI Assistant for Azure Cosmos DB and Azure Cognitive Search (aka Bring Your Data to ChatGPT)
 
 This solution demonstrates how to design and implement a RAG Pattern solution that incorporates Azure Cosmos DB with Azure OpenAI Service and Azure Cognitive Search to build a vector search solution with an AI assistant user interface. The solution shows how to generate vectors on data stored in Azure Cosmos DB using Azure OpenAI Service, how to implement vector search using the vector search capability of Azure Cognitive Search and get the reponse from Azure OpenAI Service's ChatGPT using the matched documents as a context. The solution includes the frontend and backend components hosted on Azure Kubetnetes Service. The solution also showcases key concepts such as managing conversational context and history, managing tokens consumed by Azure OpenAI Service, as well as understanding how to write prompts for large language models such as ChatGPT so they produce the desired responses.
