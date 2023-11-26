@@ -83,8 +83,8 @@
     "openAiSettings": {
       "name": "[format('{0}-openai', parameters('name'))]",
       "sku": "[parameters('openAiSku')]",
-      "maxConversationTokens": "100",
-      "maxCompletionTokens": "500",
+      "maxConversationTokens": "120",
+      "maxCompletionTokens": "120",
       "completionsModel": {
         "name": "gpt-35-turbo",
         "version": "0301",
