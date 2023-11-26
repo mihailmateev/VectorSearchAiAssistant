@@ -50,8 +50,8 @@ param appGetRepositoryBranch string = 'mongovcorev2'
 var openAiSettings = {
   name: '${name}-openai'
   sku: openAiSku
-  maxConversationTokens: '100'
-  maxCompletionTokens: '500'
+  maxConversationTokens: '120'
+  maxCompletionTokens: '120'
   completionsModel: {
     name: 'gpt-35-turbo'
     version: '0301'
