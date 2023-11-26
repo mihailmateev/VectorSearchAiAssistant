@@ -15,6 +15,7 @@
       "allowedValues": [
         "southcentralus",
         "eastus",
+        "eastus2",
         "westeurope"
       ],
       "metadata": {
